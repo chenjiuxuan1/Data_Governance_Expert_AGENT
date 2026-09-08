@@ -14,14 +14,18 @@ from datetime import datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from gov_profiler import profile_table, format_profile, extract_table_from_question
 
-BOT_TOKEN = os.environ.get("KN_CHAT_BOT_TOKEN", "CHANGE_ME_BOT_TOKEN")
+BOT_TOKEN = os.environ.get("KN_CHAT_BOT_TOKEN", "")
 API_BASE = "https://bot.kn.chat"
-# 测试阶段只应答这个 user_id（jiangchuanchen）
-ALLOWED_USER_IDS = {CHANGE_ME_USER_ID}
+# 允许应答的用户（测试阶段白名单；逗号分隔多个 user_id，如 "1571267276,123456789"）
+# 留空 = 应答所有用户（正式上线放开）
+_ALLOWED_STR = os.environ.get("ALLOWED_USER_IDS", "").strip()
+ALLOWED_USER_IDS = {int(x) for x in _ALLOWED_STR.split(",") if x.strip().isdigit()} if _ALLOWED_STR else None
 LOG_DIR = "/tmp/gov-bot"
 OFFSET_FILE = f"{LOG_DIR}/offset.json"
 LEDGER_FILE = f"{LOG_DIR}/ledger.json"
-RECORD_GROUP_ID = os.environ.get("RECORD_GROUP_CHAT_ID", "CHANGE_ME_GROUP_ID")  # 数据治理专家记录群
+# 记录群（数据治理专家记录群），未配置则跳过留痕
+_RECORD_STR = os.environ.get("RECORD_GROUP_CHAT_ID", "").strip()
+RECORD_GROUP_ID = int(_RECORD_STR) if _RECORD_STR.lstrip("-").isdigit() else None
 
 os.makedirs(LOG_DIR, exist_ok=True)
 
@@ -75,7 +79,7 @@ def to_record_group(text):
     """转发到记录群（如已配置）"""
     if not RECORD_GROUP_ID:
         return
-    resp = api("sendMessage", body={"chat_id": int(RECORD_GROUP_ID), "text": text})
+    resp = api("sendMessage", body={"chat_id": RECORD_GROUP_ID, "text": text})
     if resp and resp.get("ok"):
         log(f"记录群转发 OK (msg_id={resp['result'].get('message_id')})")
     else:
@@ -141,9 +145,9 @@ def process_message(m):
     user_id = m.get("from", {}).get("id")
     username = m.get("from", {}).get("username", "")
     text = m.get("text", "")
-    # 测试阶段：只应答允许的用户
-    if user_id not in ALLOWED_USER_IDS:
-        log(f"忽略非测试用户 {user_id} 的消息: {text[:50]}")
+    # 白名单：None=应答所有用户；否则只应答名单内用户
+    if ALLOWED_USER_IDS is not None and user_id not in ALLOWED_USER_IDS:
+        log(f"忽略非白名单用户 {user_id} 的消息: {text[:50]}")
         return
     log(f"收到 {username}: {text!r}")
     # 记录群留痕（入站）

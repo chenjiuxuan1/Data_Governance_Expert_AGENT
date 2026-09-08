@@ -24,7 +24,7 @@ QWEN_URL = os.environ.get(
 )
 QWEN_API_KEY = os.environ.get(
     "QWEN_API_KEY",
-    "CHANGE_ME_QWEN_API_KEY",  # 测试用；生产换环境变量
+    "",  # 生产必须通过环境变量配置；为空时调用会失败并返回 None
 )
 QWEN_MODEL = os.environ.get("QWEN_MODEL", "qwen3.7-plus")
 QWEN_TIMEOUT = int(os.environ.get("QWEN_TIMEOUT", "60"))
@@ -33,6 +33,9 @@ QWEN_TIMEOUT = int(os.environ.get("QWEN_TIMEOUT", "60"))
 
 def ask_qwen(user_prompt, system_prompt=None, max_tokens=None):
     """调用 Qwen 模型，返回回答文本；失败返回 None"""
+    if not QWEN_API_KEY:
+        print("[gov_llm] 未配置 QWEN_API_KEY 环境变量，跳过 LLM 调用")
+        return None
     if system_prompt is None:
         system_prompt = (
             "你是数据治理专家，负责数仓僵尸表识别、数据质量、血缘分析。"
