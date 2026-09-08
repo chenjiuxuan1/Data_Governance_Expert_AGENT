@@ -1,0 +1,41 @@
+{
+  "gateway": {
+    "n8nUrl": "${N8N_URL:https://sql-cn.kuainiujinke.com}",
+    "zombieWebhook": "/webhook/zombie-zero-access",
+    "srGateway": "${FUXI_SR_GATEWAY_URL:http://172.20.0.234:4888}",
+    "timeoutSec": 280
+  },
+  "batch": "202609",
+  "lookbackDays": 30,
+  "countries": {
+    "cn": { "name": "中国", "gatewayCountry": "cn", "tokenEnv": "DS_API_TOKEN_CN" },
+    "ine": { "name": "印尼", "gatewayCountry": "id", "tokenEnv": "DS_API_TOKEN_INE" },
+    "mx": { "name": "墨西哥", "gatewayCountry": "mx", "tokenEnv": "DS_API_TOKEN_MX" },
+    "ph": { "name": "菲律宾", "gatewayCountry": "ph", "tokenEnv": "DS_API_TOKEN_PH" },
+    "pk": { "name": "巴基斯坦", "gatewayCountry": "pk", "tokenEnv": "DS_API_TOKEN_PK" },
+    "th": { "name": "泰国", "gatewayCountry": "th", "tokenEnv": "DS_API_TOKEN_TH" }
+  },
+  "countryAliases": {
+    "id": "ine", "indonesia": "ine", "indo": "ine",
+    "china": "cn",
+    "thailand": "th",
+    "pakistan": "pk",
+    "mexico": "mx",
+    "philippines": "ph"
+  },
+  "excludedSchemas": [
+    "information_schema", "_statistics_", "sys", "starrocks_audit_db__",
+    "_starrocks_audit_db_", "testdb", "governance", "mysql"
+  ],
+  "layers": ["ods", "dwd", "dws", "ads"],
+  "bakPattern": "lower(table_name) REGEXP '(_bak|_backup|_back|_old|_his|_copy|_tmpbak|backup|bak_)'",
+  "excludeBakNameSubstrings": ["his", "history"],
+  "readTokens": {
+    "sr": "${FUXI_SR_READ_TOKEN:fuxi_backend_query_all_20260518}",
+    "write": "${FUXI_SR_WRITE_TOKEN:6b10b6c9115b76eeb7d82b7a7e02cff8}"
+  },
+  "output": {
+    "dir": "${GOV_OUTPUT_DIR:./output}",
+    "defaultFormat": "xlsx"
+  }
+}

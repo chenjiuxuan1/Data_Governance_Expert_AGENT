@@ -1,0 +1,43 @@
+{
+  "name": "pi-data-governance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "数据治理专家 Pi Package：全库零访问(僵尸)表扫描、四层(ods/dwd/dws/ads)备份表识别、僵尸表导出(CSV/Excel)、DROP SQL 草稿，多国(cn/ine/mx/ph/pk/th)路由。可在本地终端与 ZNZB 服务器部署运行。",
+  "type": "module",
+  "main": "lib/index.mjs",
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./tools/*": "./tools/*"
+  },
+  "bin": {
+    "gov": "./scripts/gov-cli.mjs"
+  },
+  "scripts": {
+    "scan:zombie": "node ./scripts/gov-cli.mjs zombie --country cn",
+    "scan:bak": "node ./scripts/gov-cli.mjs bak --country cn",
+    "export:csv": "node ./scripts/gov-cli.mjs export --format csv",
+    "export:xlsx": "node ./scripts/gov-cli.mjs export --format xlsx",
+    "drop:sql": "node ./scripts/gov-cli.mjs drop",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "openpyxl": "^3.1.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "pi": {
+    "displayName": "数据治理专家",
+    "kind": "package",
+    "tools": [
+      "gov_zombie_scan",
+      "gov_bak_scan",
+      "gov_query",
+      "gov_export",
+      "gov_drop_sql"
+    ],
+    "skills": [
+      "data-governance-expert"
+    ]
+  }
+}

@@ -1,0 +1,1262 @@
+[
+ {
+  "table": "ods_app_app_package",
+  "days": 1756,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "qilonghuang",
+    "n": 5,
+    "last_ts": "2026-08-31T15:43:18"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:15"
+   }
+  ],
+  "sec": 3.6
+ },
+ {
+  "table": "ods_tmk_audit_positions",
+  "days": 1118,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 2.6
+ },
+ {
+  "table": "ods_tmk_audit_question",
+  "days": 1077,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 1.8
+ },
+ {
+  "table": "ods_tmk_audit_option",
+  "days": 969,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 2.4
+ },
+ {
+  "table": "ods_capital_withdraw",
+  "days": 690,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 11,
+    "last_ts": "2026-08-30T16:08:34"
+   }
+  ],
+  "sec": 1.4
+ },
+ {
+  "table": "ods_app_hold_apply",
+  "days": 668,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 4,
+    "last_ts": "2026-08-30T12:58:43"
+   }
+  ],
+  "sec": 1.3
+ },
+ {
+  "table": "ods_biz_grant_withdraw_order",
+  "days": 658,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:11"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_tmk_audit_user_schedule",
+  "days": 583,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 17.8
+ },
+ {
+  "table": "ods_tmk_audit_task_question",
+  "days": 572,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 4.2
+ },
+ {
+  "table": "ods_tmk_audit_task_recording",
+  "days": 572,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 2.9
+ },
+ {
+  "table": "ods_tmk_audit_task_process",
+  "days": 572,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 1.6
+ },
+ {
+  "table": "ods_repay_provision",
+  "days": 459,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:19"
+   }
+  ],
+  "sec": 3.1
+ },
+ {
+  "table": "ods_hubble_worker_task_fox",
+  "days": 304,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:18"
+   }
+  ],
+  "sec": 1.5
+ },
+ {
+  "table": "ods_acctrix_investment_contract_cost_allocate",
+  "days": 234,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:17"
+   }
+  ],
+  "sec": 1.4
+ },
+ {
+  "table": "ods_acctrix_investment_contract",
+  "days": 234,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 6,
+    "last_ts": "2026-08-28T14:49:32"
+   },
+   {
+    "user": "yingzhang",
+    "n": 5,
+    "last_ts": "2026-09-07T17:45:21"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_msgsvr_sms_cost_monthly",
+  "days": 218,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:23"
+   },
+   {
+    "user": "popeyehu",
+    "n": 14,
+    "last_ts": "2026-08-12T10:26:14"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_msgsvr_ivr_cost_monthly",
+  "days": 218,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:21"
+   },
+   {
+    "user": "serenagao",
+    "n": 5,
+    "last_ts": "2026-08-25T12:50:01"
+   },
+   {
+    "user": "popeyehu",
+    "n": 1,
+    "last_ts": "2026-08-12T10:25:51"
+   }
+  ],
+  "sec": 1.3
+ },
+ {
+  "table": "ods_tmk_audit_task_distribution",
+  "days": 198,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_tmk_audit_user_work",
+  "days": 198,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 1.0
+ },
+ {
+  "table": "ods_hubble_worker_task_spec",
+  "days": 167,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:07"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_momentum_cfg_crowd_event",
+  "days": 159,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:19"
+   },
+   {
+    "user": "ceecao",
+    "n": 2,
+    "last_ts": "2026-08-25T10:37:45"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_app_pluto_merchant_charge",
+  "days": 104,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:31"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_rights_rights_pack_item",
+  "days": 95,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:32"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_rights_user_rights_pack",
+  "days": 95,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:16"
+   }
+  ],
+  "sec": 1.5
+ },
+ {
+  "table": "ods_rights_rights_pack",
+  "days": 95,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 6,
+    "last_ts": "2026-08-28T14:49:32"
+   }
+  ],
+  "sec": 1.3
+ },
+ {
+  "table": "ods_momentum_cfg_field",
+  "days": 90,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:11"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_repay_capital_funding_record",
+  "days": 84,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:23"
+   }
+  ],
+  "sec": 1.6
+ },
+ {
+  "table": "ods_hubble_worker_marketing_task",
+  "days": 77,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 250,
+    "last_ts": "2026-09-08T10:30:01"
+   },
+   {
+    "user": "u_jiangchuan",
+    "n": 14,
+    "last_ts": "2026-09-07T05:01:17"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_ma_user_center_user_export_record",
+  "days": 76,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:30"
+   }
+  ],
+  "sec": 1.6
+ },
+ {
+  "table": "ods_tdtools_tdtools_match_batch_detail",
+  "days": 74,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:23"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_rights_campaign_coupon_relation",
+  "days": 66,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:04"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_supervision_report_ncb_post_code",
+  "days": 62,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:31"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_tmk_audit_task",
+  "days": 56,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 546,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_momentum_cfg_whitelist",
+  "days": 49,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 6,
+    "last_ts": "2026-08-28T14:49:34"
+   },
+   {
+    "user": "ceecao",
+    "n": 1,
+    "last_ts": "2026-08-25T10:37:35"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_momentum_application_page",
+  "days": 47,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:33"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_supervision_report_reg_user_validation_rule",
+  "days": 45,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:33"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_cash_apply_grant_plan",
+  "days": 41,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:29"
+   }
+  ],
+  "sec": 1.0
+ },
+ {
+  "table": "ods_tdmaterial_material_work_order_attribute",
+  "days": 41,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:21"
+   },
+   {
+    "user": "jiangchuanchen",
+    "n": 1,
+    "last_ts": "2026-08-13T15:11:04"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_rights_coupon_extra",
+  "days": 39,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:13"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_rights_campaign",
+  "days": 39,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 9,
+    "last_ts": "2026-08-28T14:49:20"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_momentum_application",
+  "days": 33,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 9,
+    "last_ts": "2026-08-28T14:49:33"
+   }
+  ],
+  "sec": 1.0
+ },
+ {
+  "table": "ods_momentum_application_perspective",
+  "days": 33,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:06"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_momentum_material",
+  "days": 33,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:10"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_channel_short_link_template",
+  "days": 31,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 4,
+    "last_ts": "2026-08-28T14:49:33"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_cash_apply_black",
+  "days": 31,
+  "level": "严重(>30天)",
+  "users": [
+   {
+    "user": "xintongdeng",
+    "n": 13,
+    "last_ts": "2026-08-16T16:26:53"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:21"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_supervision_report_ncb_user_info",
+  "days": 28,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:27"
+   }
+  ],
+  "sec": 1.3
+ },
+ {
+  "table": "ods_app_voucher_usage_scene_repay_mapping",
+  "days": 28,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:35"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_rights_ent_version",
+  "days": 26,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:05"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_rights_ent_quota",
+  "days": 26,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:36"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_app_group_cost",
+  "days": 25,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:20"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_paysvr_bank",
+  "days": 24,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:28"
+   }
+  ],
+  "sec": 1.4
+ },
+ {
+  "table": "ods_momentum_cfg_strategy_material",
+  "days": 21,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:12"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_crm_key_value",
+  "days": 20,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:16"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_rights_entitlement",
+  "days": 20,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:09"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_tmk_audit_task_contact",
+  "days": 18,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 78,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_repay_biz_partner",
+  "days": 17,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:19"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_momentum_cfg_ab_component_log",
+  "days": 14,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "ceecao",
+    "n": 4,
+    "last_ts": "2026-08-26T19:55:24"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:29"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_momentum_cfg_ab_component",
+  "days": 14,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "ceecao",
+    "n": 28,
+    "last_ts": "2026-09-08T10:59:54"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 9,
+    "last_ts": "2026-08-28T14:49:34"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_paysvr_channel",
+  "days": 14,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "biz_acctrix_rw",
+    "n": 3668,
+    "last_ts": "2026-09-08T14:03:59"
+   },
+   {
+    "user": "miasong",
+    "n": 299,
+    "last_ts": "2026-09-08T05:01:34"
+   },
+   {
+    "user": "jennychen",
+    "n": 132,
+    "last_ts": "2026-08-24T17:32:09"
+   },
+   {
+    "user": "neopan",
+    "n": 34,
+    "last_ts": "2026-09-07T10:59:24"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 12,
+    "last_ts": "2026-08-28T14:49:33"
+   },
+   {
+    "user": "youjunlu",
+    "n": 4,
+    "last_ts": "2026-08-11T14:25:07"
+   },
+   {
+    "user": "qilonghuang",
+    "n": 2,
+    "last_ts": "2026-08-19T09:50:47"
+   },
+   {
+    "user": "jaromejiang",
+    "n": 1,
+    "last_ts": "2026-08-10T14:46:59"
+   }
+  ],
+  "sec": 1.4
+ },
+ {
+  "table": "ods_cash_apply_source",
+  "days": 12,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:15"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_crm_customer_service_ticket_process_record",
+  "days": 10,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "hertzhe",
+    "n": 5,
+    "last_ts": "2026-08-26T13:29:20"
+   },
+   {
+    "user": "shitaohou",
+    "n": 5,
+    "last_ts": "2026-08-20T13:37:16"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:26"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_momentum_resource",
+  "days": 10,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:25"
+   }
+  ],
+  "sec": 1.0
+ },
+ {
+  "table": "ods_supervision_report_reg_user_extra_info",
+  "days": 10,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:15"
+   }
+  ],
+  "sec": 1.3
+ },
+ {
+  "table": "ods_crm_udesk_call_records",
+  "days": 9,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:32"
+   }
+  ],
+  "sec": 1.4
+ },
+ {
+  "table": "ods_ma_user_center_source",
+  "days": 7,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "ceecao",
+    "n": 9,
+    "last_ts": "2026-08-28T10:26:10"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 6,
+    "last_ts": "2026-08-28T14:49:31"
+   },
+   {
+    "user": "xintongdeng",
+    "n": 1,
+    "last_ts": "2026-08-24T09:41:24"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_ddp_modules",
+  "days": 6,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "serenagao",
+    "n": 5,
+    "last_ts": "2026-08-28T12:46:20"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:22"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_ddp_offline_task_detail",
+  "days": 6,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "serenagao",
+    "n": 5,
+    "last_ts": "2026-09-03T10:34:01"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:31"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_app_bank_card_verify_action_record",
+  "days": 5,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:13"
+   },
+   {
+    "user": "simonli.x",
+    "n": 1,
+    "last_ts": "2026-08-20T09:22:10"
+   }
+  ],
+  "sec": 1.3
+ },
+ {
+  "table": "ods_app_bank_card_verify_record",
+  "days": 5,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:14"
+   },
+   {
+    "user": "simonli.x",
+    "n": 2,
+    "last_ts": "2026-08-20T09:29:25"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_ddp_online_task_detail",
+  "days": 5,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "qilonghuang",
+    "n": 15,
+    "last_ts": "2026-09-01T13:10:02"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:05"
+   },
+   {
+    "user": "jiangchuanchen",
+    "n": 2,
+    "last_ts": "2026-08-10T09:58:18"
+   },
+   {
+    "user": "u_jiangchuan",
+    "n": 2,
+    "last_ts": "2026-08-10T09:54:39"
+   },
+   {
+    "user": "millie.g.ruan",
+    "n": 1,
+    "last_ts": "2026-08-10T09:42:03"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_repay_refund_request",
+  "days": 5,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:19"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_repay_withdraw",
+  "days": 5,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:07"
+   }
+  ],
+  "sec": 1.0
+ },
+ {
+  "table": "ods_ddp_online_task",
+  "days": 5,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "qilonghuang",
+    "n": 15,
+    "last_ts": "2026-09-01T13:10:02"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 6,
+    "last_ts": "2026-08-28T14:49:19"
+   },
+   {
+    "user": "jiangchuanchen",
+    "n": 2,
+    "last_ts": "2026-08-10T09:58:18"
+   },
+   {
+    "user": "u_jiangchuan",
+    "n": 2,
+    "last_ts": "2026-08-10T09:54:39"
+   },
+   {
+    "user": "millie.g.ruan",
+    "n": 1,
+    "last_ts": "2026-08-10T09:42:03"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_channel_template_mapping",
+  "days": 3,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:11"
+   }
+  ],
+  "sec": 1.0
+ },
+ {
+  "table": "ods_momentum_cfg_activity",
+  "days": 3,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "ceecao",
+    "n": 302,
+    "last_ts": "2026-09-08T10:59:54"
+   },
+   {
+    "user": "xintongdeng",
+    "n": 25,
+    "last_ts": "2026-09-07T22:17:42"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 9,
+    "last_ts": "2026-08-28T14:49:26"
+   },
+   {
+    "user": "millie.g.ruan",
+    "n": 1,
+    "last_ts": "2026-08-18T09:32:51"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_paysvr_channel_offline_trade",
+  "days": 3,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:33"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_triggers_trigger_timer_execution_file",
+  "days": 3,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:25"
+   },
+   {
+    "user": "ceecao",
+    "n": 3,
+    "last_ts": "2026-08-25T10:45:53"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_triggers_trigger_timer_execution_task",
+  "days": 3,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "yannhao",
+    "n": 91,
+    "last_ts": "2026-09-08T07:33:51"
+   },
+   {
+    "user": "ceecao",
+    "n": 32,
+    "last_ts": "2026-08-25T10:45:53"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 3,
+    "last_ts": "2026-08-28T14:49:28"
+   }
+  ],
+  "sec": 1.2
+ },
+ {
+  "table": "ods_tmk_audit_user",
+  "days": 3,
+  "level": "中等(3-30天)",
+  "users": [
+   {
+    "user": "u_qilonghuang",
+    "n": 234,
+    "last_ts": "2026-09-08T08:09:22"
+   }
+  ],
+  "sec": 1.1
+ },
+ {
+  "table": "ods_cash_apply_rule",
+  "days": 1,
+  "level": "轻度(1-3天)",
+  "users": [
+   {
+    "user": "yingzhang",
+    "n": 32,
+    "last_ts": "2026-09-04T11:40:50"
+   },
+   {
+    "user": "u_qilonghuang",
+    "n": 9,
+    "last_ts": "2026-08-30T13:07:08"
+   },
+   {
+    "user": "qilonghuang",
+    "n": 5,
+    "last_ts": "2026-08-30T13:06:26"
+   },
+   {
+    "user": "serenagao",
+    "n": 5,
+    "last_ts": "2026-08-18T15:38:34"
+   }
+  ],
+  "sec": 1.2
+ }
+]

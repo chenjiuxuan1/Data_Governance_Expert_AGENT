@@ -1,0 +1,212 @@
+[
+ {
+  "tbl": "ods_app_hold_apply",
+  "src_max": "2024-11-08T18:30:48",
+  "ods_max": "2024-11-08T18:30:48"
+ },
+ {
+  "tbl": "ods_cash_apply_grant_plan",
+  "src_max": "2026-07-28T13:48:04",
+  "ods_max": "2026-07-28T13:48:04"
+ },
+ {
+  "tbl": "ods_hubble_worker_marketing_task",
+  "src_max": "2026-06-22T18:20:03",
+  "ods_max": "2026-06-22T18:20:03"
+ },
+ {
+  "tbl": "ods_hubble_worker_task_fox",
+  "src_max": "2025-11-07T06:00:04",
+  "ods_max": "2025-11-07T06:00:04"
+ },
+ {
+  "tbl": "ods_hubble_worker_task_spec",
+  "src_max": "2026-03-24T14:10:00",
+  "ods_max": "2026-03-24T14:10:00"
+ },
+ {
+  "tbl": "ods_tmk_audit_option",
+  "src_max": "2024-01-12T15:16:42",
+  "ods_max": "2024-01-12T15:16:42"
+ },
+ {
+  "tbl": "ods_tmk_audit_positions",
+  "src_max": "2023-08-15T20:04:11",
+  "ods_max": "2023-08-15T20:04:11"
+ },
+ {
+  "tbl": "ods_tmk_audit_question",
+  "src_max": "2023-09-26T14:36:05",
+  "ods_max": "2023-09-26T14:36:05"
+ },
+ {
+  "tbl": "ods_tmk_audit_task",
+  "src_max": "2026-07-13T15:25:34",
+  "ods_max": "2026-07-13T15:25:34"
+ },
+ {
+  "tbl": "ods_tmk_audit_task_distribution",
+  "src_max": "2026-02-21T13:40:02",
+  "ods_max": "2026-02-21T13:40:02"
+ },
+ {
+  "tbl": "ods_tmk_audit_task_process",
+  "src_max": "2025-02-12T17:08:05",
+  "ods_max": "2025-02-12T17:08:05"
+ },
+ {
+  "tbl": "ods_tmk_audit_task_question",
+  "src_max": "2025-02-12T16:42:20",
+  "ods_max": "2025-02-12T16:42:20"
+ },
+ {
+  "tbl": "ods_tmk_audit_task_recording",
+  "src_max": "2025-02-12T17:08:05",
+  "ods_max": "2025-02-12T17:08:05"
+ },
+ {
+  "tbl": "ods_tmk_audit_user_schedule",
+  "src_max": "2025-01-31T21:09:32",
+  "ods_max": "2025-01-31T21:09:32"
+ },
+ {
+  "tbl": "ods_tmk_audit_user_work",
+  "src_max": "2026-02-21T13:40:02",
+  "ods_max": "2026-02-21T13:40:02"
+ },
+ {
+  "tbl": "ods_biz_grant_withdraw_order",
+  "src_max": "ERR:Expecting value: line 1 column 1 (char 0)",
+  "ods_max": "2024-11-18T13:58:58"
+ },
+ {
+  "tbl": "ods_capital_withdraw",
+  "src_max": "ERR:Expecting value: line 1 column 1 (char 0)",
+  "ods_max": "2024-10-17T16:41:23"
+ },
+ {
+  "tbl": "ods_repay_provision",
+  "src_max": "2025-06-05T16:27:57",
+  "ods_max": "2025-06-05T16:27:57"
+ },
+ {
+  "tbl": "ods_msgsvr_ivr_cost_monthly",
+  "src_max": "2026-02-01T10:00:52",
+  "ods_max": "2026-02-01T10:00:52"
+ },
+ {
+  "tbl": "ods_msgsvr_sms_cost_monthly",
+  "src_max": "2026-02-01T10:00:44",
+  "ods_max": "2026-02-01T10:00:44"
+ },
+ {
+  "tbl": "ods_repay_capital_funding_record",
+  "src_max": "2026-06-15T11:10:16",
+  "ods_max": "2026-06-15T11:10:16"
+ },
+ {
+  "tbl": "ods_app_pluto_merchant_charge",
+  "src_max": "2026-05-26T16:03:32",
+  "ods_max": "2026-05-26T16:03:32"
+ },
+ {
+  "tbl": "ods_cash_apply_black",
+  "src_max": "2026-08-06T23:13:15",
+  "ods_max": "2026-08-06T23:13:15"
+ },
+ {
+  "tbl": "ods_tdtools_tdtools_match_batch_detail",
+  "src_max": "2026-06-25T15:41:39",
+  "ods_max": "2026-06-25T15:41:39"
+ },
+ {
+  "tbl": "ods_rights_rights_pack",
+  "src_max": "2026-06-04T13:05:32",
+  "ods_max": "2026-06-04T13:05:32"
+ },
+ {
+  "tbl": "ods_rights_rights_pack_item",
+  "src_max": "2026-06-04T12:52:54",
+  "ods_max": "2026-06-04T12:52:54"
+ },
+ {
+  "tbl": "ods_rights_user_rights_pack",
+  "src_max": "2026-06-04T13:05:32",
+  "ods_max": "2026-06-04T13:05:32"
+ },
+ {
+  "tbl": "ods_app_app_package",
+  "src_max": "2021-11-16T09:32:33",
+  "ods_max": "2021-11-16T09:32:33"
+ },
+ {
+  "tbl": "ods_momentum_application",
+  "src_max": "2026-08-05T12:47:21",
+  "ods_max": "2026-08-05T12:47:21"
+ },
+ {
+  "tbl": "ods_momentum_application_page",
+  "src_max": "2026-07-21T20:12:53",
+  "ods_max": "2026-07-21T20:12:53"
+ },
+ {
+  "tbl": "ods_momentum_application_perspective",
+  "src_max": "2026-08-05T12:47:21",
+  "ods_max": "2026-08-05T12:47:21"
+ },
+ {
+  "tbl": "ods_momentum_cfg_crowd_event",
+  "src_max": "2026-04-01T17:59:35",
+  "ods_max": "2026-04-01T17:59:35"
+ },
+ {
+  "tbl": "ods_momentum_cfg_field",
+  "src_max": "2026-06-09T12:52:45",
+  "ods_max": "2026-06-09T12:52:45"
+ },
+ {
+  "tbl": "ods_momentum_cfg_whitelist",
+  "src_max": "2026-07-20T17:49:01",
+  "ods_max": "2026-07-20T17:49:01"
+ },
+ {
+  "tbl": "ods_momentum_material",
+  "src_max": "2026-08-05T19:25:47",
+  "ods_max": "2026-08-05T19:25:47"
+ },
+ {
+  "tbl": "ods_rights_campaign",
+  "src_max": "2026-07-30T12:51:57",
+  "ods_max": "2026-07-30T12:51:57"
+ },
+ {
+  "tbl": "ods_rights_campaign_coupon_relation",
+  "src_max": "2026-07-03T14:32:40.326",
+  "ods_max": "2026-07-03T14:32:40"
+ },
+ {
+  "tbl": "ods_rights_coupon_extra",
+  "src_max": "2026-07-30T13:05:21",
+  "ods_max": "2026-07-30T13:05:21"
+ },
+ {
+  "tbl": "ods_ma_user_center_user_export_record",
+  "src_max": "2026-06-23T14:28:30",
+  "ods_max": "2026-06-23T14:28:30"
+ },
+ {
+  "tbl": "ods_supervision_report_reg_user_validation_rule",
+  "src_max": "2026-07-24T15:15:29",
+  "ods_max": "2026-07-24T15:15:29"
+ },
+ {
+  "tbl": "ods_supervision_report_ncb_post_code",
+  "src_max": "2026-07-07T17:09:11",
+  "ods_max": "2026-07-07T17:09:11"
+ },
+ {
+  "tbl": "ods_channel_short_link_template",
+  "src_max": "2026-08-07T10:50:54",
+  "ods_max": "2026-08-07T10:50:54"
+ }
+]
